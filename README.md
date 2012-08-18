@@ -11,12 +11,11 @@
 ## Contents ##
 
 - **drupal-jmeter-tricks.jmx**: Sample JMeter test script with multiple thread groups to illustrate different techniques. The following scenarios are used as examples -
-
-    1. **Drupal Login**: Login as a Drupal user, driven by a CSV file.
-    1. **Select From A List**: View a content listing and select a single item at random to view.
-    1. **Traverse Menu Tree**: Visit every page located in the main menu.
-    1. **Create a Node**: Save a new piece of content using hard-coded values.
-    1. **Visit List of URLs**: Visit every URL listed in a CSV file.
+  1. **Drupal Login**: Login as a Drupal user, driven by a CSV file.
+  1. **Select From A List**: View a content listing and select a single item at random to view.
+  1. **Traverse Menu Tree**: Visit every page located in the main menu.
+  1. **Create a Node**: Save a new piece of content using hard-coded values.
+  1. **Visit List of URLs**: Visit every URL listed in a CSV file.
 
 - **users.csv**: Sample user dictionary file
 - **urls.csv**: Sample list of URLs to test against
