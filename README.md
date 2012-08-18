@@ -41,3 +41,7 @@ There are a few configuration settings that require specific note here -
 
         `${__V(node_links_${__Random(1,${node_links_matchNr})})}`
 
+1. Check if a variable was successfully set -
+
+        "${node_links}".length > 0
+
