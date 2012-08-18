@@ -8,6 +8,15 @@
 - JMeter Plugins [[Download](https://code.google.com/p/jmeter-plugins/)]
 - A Drupal 7 site
 
+### Test Site Setup ###
+
+To setup a simple site for testing these JMeter scripts, use the following Drush commands -
+
+    drush site-install --account-name="admin" --account-pass="admin" \
+        --site-name="Drupal JMeter Test" standard
+    drush user-create user --password="user"
+
+
 ## Contents ##
 
 - **drupal-jmeter-tricks.jmx**: Sample JMeter test script with multiple thread groups to illustrate different techniques. The following scenarios are used as examples -
