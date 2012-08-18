@@ -39,7 +39,7 @@ There are a few configuration settings that require specific note here -
 
 1. Choosing a random item from a JMeter list returned by the XPath Post Processor -
 
-        `${__V(node_links_${__Random(1,${node_links_matchNr})})}`
+        ${__V(node_links_${__Random(1,${node_links_matchNr})})}
 
 1. Check if a variable was successfully set -
 
