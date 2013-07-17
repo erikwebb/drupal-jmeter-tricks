@@ -5,7 +5,7 @@
 ## Requirements ##
 
 - JMeter 2.7+ [[Download](https://jmeter.apache.org/download_jmeter.cgi)]
-- JMeter Plugins [[Download](https://code.google.com/p/jmeter-plugins/)]
+- JMeter Plugins [[Download](http://jmeter-plugins.org/)]
 - A Drupal 7 site
 
 ### Test Site Setup ###
