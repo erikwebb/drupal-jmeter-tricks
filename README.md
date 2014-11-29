@@ -1,6 +1,6 @@
 # Drupal JMeter Tricks #
 
-**Author: [Erik Webb](http://erikwebb.net/)**
+**Author: [Erik Webb](http://www.erikwebb.net/)**
 
 ## Requirements ##
 
