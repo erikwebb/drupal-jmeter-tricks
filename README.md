@@ -38,7 +38,9 @@ A simple `Rakefile` is included to simplify a few commands -
 - **users.csv**: Sample user dictionary file
 - **urls.csv**: Sample list of URLs to test against
 
-## Explanations ##
+> NOTE: In order to [optimize resource utilization](http://jmeter.apache.org/usermanual/listeners.html#resources), only a [Simple Data Writer](http://jmeter.apache.org/usermanual/component_reference.html#Simple_Data_Writer) listener is used. The fields stored in `results.jtl` file are configured using this listener.
+
+### Explanations ###
 
 There are a few configuration settings that require specific note here -
 
