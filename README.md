@@ -33,6 +33,7 @@ A simple `Rakefile` is included to simplify a few commands -
     1. **Traverse Menu Tree**: Visit every page located in the main menu.
     1. **Create a Node**: Save a new piece of content using hard-coded values.
     1. **Visit List of URLs**: Visit every URL listed in a CSV file.
+- **jmeter.properties**: Properties needed for a usable results file.
 - **Rakefile**: Rake file to shortcut common tasks.
 - **users.csv**: Sample user dictionary file
 - **urls.csv**: Sample list of URLs to test against
