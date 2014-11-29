@@ -53,3 +53,7 @@ There are a few configuration settings that require specific note here -
 1. Check if a variable was successfully set -
 
         "${node_links}".length > 0
+
+## Issues ##
+
+If you have run into issues, please [post an issue on Github](https://github.com/erikwebb/drupal-jmeter-tricks/issues/new) and attach your `jmeter.log` file.
