@@ -6,10 +6,17 @@ if $?.exitstatus > 0
   exit 1
 end
 
+desc "Open JMeter script for editing."
 task :edit do
   sh "jmeter -p jmeter.properties -t drupal-jmeter-tricks.jmx"
 end
 
+desc "Run JMeter script and save results."
 task :run do
   sh "jmeter -p jmeter.properties -n -t drupal-jmeter-tricks.jmx -l results.jtl"
+end
+
+desc "Perform log analysis on JMeter results."
+task :analyze do
+  $stdout.puts "Currently unsupported. See http://wiki.apache.org/jmeter/LogAnalysis for examples of log analysis."
 end
