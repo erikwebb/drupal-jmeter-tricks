@@ -18,5 +18,10 @@ end
 
 desc "Perform log analysis on JMeter results."
 task :analyze do
-  $stdout.puts "Currently unsupported. See http://wiki.apache.org/jmeter/LogAnalysis for examples of log analysis."
+  if File.exist?("results.jtl")
+    $stdout.puts "Currently unsupported. See http://wiki.apache.org/jmeter/LogAnalysis for examples of log analysis."
+  else
+    $stderr.puts "Unable to find results.jtl file."
+    exit 1
+  end
 end

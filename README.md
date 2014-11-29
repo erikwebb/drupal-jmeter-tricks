@@ -22,7 +22,8 @@ To setup a simple site for testing these JMeter scripts, use the following Drush
 A simple `Rakefile` is included to simplify a few commands -
 
 - **rake edit**: Open the JMX file in JMeter.
-- **rake run** (default): Run the JMX file and output results to `results.jtl`.
+- **rake run**: (Default) Run the JMX file and output results to `results.jtl`.
+- **rake analayze**: (Currently unsupported) Analyze the results stored in `results.jtl`.
 
 ## Contents ##
 
