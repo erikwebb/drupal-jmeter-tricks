@@ -27,7 +27,7 @@ A simple `Rakefile` is included to simplify a few commands -
 
 ## Contents ##
 
-- **drupal-jmeter-tricks.jmx**: Sample JMeter test script with multiple thread groups to illustrate different techniques. The following scenarios are used as examples -
+- **test.jmx**: Sample JMeter test script with multiple thread groups to illustrate different techniques. The following scenarios are used as examples -
     1. **Drupal Login**: Login as a Drupal user, driven by a CSV file.
     1. **Select From A List**: View a content listing and select a single item at random to view.
     1. **Traverse Menu Tree**: Visit every page located in the main menu.
