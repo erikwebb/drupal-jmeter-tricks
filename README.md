@@ -19,11 +19,12 @@ To setup a simple site for testing these JMeter scripts, use the following Drush
 
 ## Running ##
 
-A simple `Rakefile` is included to simplify a few commands -
-
-- **rake edit**: Open the JMX file in JMeter.
-- **rake run**: (Default) Run the JMX file and output results to `results.jtl`.
-- **rake analayze**: (Currently unsupported) Analyze the results stored in `results.jtl`.
+    > rake -T
+    rake analyze  # Perform log analysis on JMeter results
+    rake clean    # Remove current log and results files
+    rake edit     # Open JMeter script for editing
+    rake json     # Save the results.jtl file as JSON
+    rake run      # Run JMeter script and save results
 
 ## Contents ##
 
@@ -38,7 +39,7 @@ A simple `Rakefile` is included to simplify a few commands -
 - **users.csv**: Sample user dictionary file
 - **urls.csv**: Sample list of URLs to test against
 
-> NOTE: In order to [optimize resource utilization](http://jmeter.apache.org/usermanual/listeners.html#resources), only a [Simple Data Writer](http://jmeter.apache.org/usermanual/component_reference.html#Simple_Data_Writer) listener is used. The fields stored in `results.jtl` file are configured using this listener.
+> NOTE: In order to [optimize resource utilization](http://jmeter.apache.org/usermanual/listeners.html#resources), only a [Simple Data Writer](http://jmeter.apache.org/usermanual/component_reference.html#Simple_Data_Writer) listener is used. The fields stored in `results.jtl` file are configured using `jmeter.properties`.
 
 ### Explanations ###
 
