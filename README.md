@@ -34,6 +34,8 @@ To setup a simple site for testing these JMeter scripts, use the following Drush
     1. **Traverse Menu Tree**: Visit every page located in the main menu.
     1. **Create a Node**: Save a new piece of content using hard-coded values.
     1. **Visit List of URLs**: Visit every URL listed in a CSV file.
+    1. **Visit List of 404 URLs**: Visit every 404 URL listed in a CSV file.
+    1. **Clear Cache**: Login as an admin and clear the Drupal caches.
 - **jmeter.properties**: Properties needed for a usable results file.
 - **Rakefile**: Rake file to shortcut common tasks.
 - **users.csv**: Sample user dictionary file
