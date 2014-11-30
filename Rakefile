@@ -47,6 +47,7 @@ end
 
 desc "Save the #{results_file} file as JSON."
 task :json do
+  # Borrowed from http://jasonheppler.org/2014/07/12/parsing-csv-to-json/
   def is_int(str)
     # Check if a string should be an integer
     return !!(str =~ /^[-+]?[1-9]([0-9]*)?$/)
