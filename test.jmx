@@ -497,7 +497,7 @@
             <stringProp name="variableNames">url</stringProp>
             <stringProp name="delimiter">,</stringProp>
             <boolProp name="quotedData">false</boolProp>
-            <boolProp name="recycle">false</boolProp>
+            <boolProp name="recycle">true</boolProp>
             <boolProp name="stopThread">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
           </CSVDataSet>
